@@ -57,18 +57,18 @@ Material:
         second: 4.9702644
       data:
         first:
-          name: _SpecInt
+          name: _Fresnel
         second: 1
       data:
         first:
-          name: _Fresnel
+          name: _SpecInt
         second: 1
     m_Colors:
       data:
         first:
           name: _Color
-        second: {r: 0.4392157, g: 0.4392157, b: 0.4392157, a: 1}
+        second: {r: 0.9191176, g: 0.9191176, b: 0.9191176, a: 1}
       data:
         first:
           name: _SpecColor
-        second: {r: 0.44313726, g: 0.44313726, b: 0.44313726, a: 1}
+        second: {r: 0.75735295, g: 0.75735295, b: 0.75735295, a: 1}
