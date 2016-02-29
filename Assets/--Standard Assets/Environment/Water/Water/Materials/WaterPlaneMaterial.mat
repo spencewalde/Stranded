@@ -7,10 +7,10 @@ Material:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: WaterPlaneMaterial
-  m_Shader: {fileID: 4800000, guid: 9dccc8e8f0da4494991c26ef59019551, type: 3}
+  m_Shader: {fileID: 202, guid: 0000000000000000f000000000000000, type: 0}
   m_ShaderKeywords: _LIGHTMAPPING_STATIC_LIGHTMAPS _UVSEC_UV1
   m_LightmapFlags: 0
-  m_CustomRenderQueue: 2000
+  m_CustomRenderQueue: 3000
   stringTagMap: {}
   m_SavedProperties:
     serializedVersion: 2
@@ -32,41 +32,6 @@ Material:
       data:
         first:
           name: _DetailNormalMap
-        second:
-          m_Texture: {fileID: 0}
-          m_Scale: {x: 1, y: 1}
-          m_Offset: {x: 0, y: 0}
-      data:
-        first:
-          name: _Fresnel
-        second:
-          m_Texture: {fileID: 0}
-          m_Scale: {x: 1, y: 1}
-          m_Offset: {x: 0, y: 0}
-      data:
-        first:
-          name: _ReflectiveColor
-        second:
-          m_Texture: {fileID: 0}
-          m_Scale: {x: 1, y: 1}
-          m_Offset: {x: 0, y: 0}
-      data:
-        first:
-          name: _ReflectionTex
-        second:
-          m_Texture: {fileID: 0}
-          m_Scale: {x: 1, y: 1}
-          m_Offset: {x: 0, y: 0}
-      data:
-        first:
-          name: _RefractionTex
-        second:
-          m_Texture: {fileID: 0}
-          m_Scale: {x: 1, y: 1}
-          m_Offset: {x: 0, y: 0}
-      data:
-        first:
-          name: _ColorControl
         second:
           m_Texture: {fileID: 0}
           m_Scale: {x: 1, y: 1}
@@ -108,6 +73,13 @@ Material:
           m_Offset: {x: 0, y: 0}
       data:
         first:
+          name: _SpecGlossMap
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
           name: _Occlusion
         second:
           m_Texture: {fileID: 0}
@@ -115,7 +87,35 @@ Material:
           m_Offset: {x: 0, y: 0}
       data:
         first:
-          name: _SpecGlossMap
+          name: _ReflectionTex
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _RefractionTex
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Fresnel
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _ReflectiveColor
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _ColorControl
         second:
           m_Texture: {fileID: 0}
           m_Scale: {x: 1, y: 1}
@@ -137,22 +137,6 @@ Material:
         first:
           name: _AlphaTestRef
         second: 0.5
-      data:
-        first:
-          name: _WaveScale
-        second: 0.063
-      data:
-        first:
-          name: _ReflDistort
-        second: 0.44
-      data:
-        first:
-          name: _RefrDistort
-        second: 0.4
-      data:
-        first:
-          name: _Lightmapping
-        second: 0
       data:
         first:
           name: _Parallax
@@ -189,6 +173,26 @@ Material:
         first:
           name: _EmissionScaleUI
         second: 1
+      data:
+        first:
+          name: _InvFade
+        second: 1
+      data:
+        first:
+          name: _Lightmapping
+        second: 0
+      data:
+        first:
+          name: _WaveScale
+        second: 0.063
+      data:
+        first:
+          name: _ReflDistort
+        second: 0.44
+      data:
+        first:
+          name: _RefrDistort
+        second: 0.4
     m_Colors:
       data:
         first:
@@ -204,6 +208,22 @@ Material:
         second: {r: 0.2, g: 0.2, b: 0.2, a: 1}
       data:
         first:
+          name: _EmissionColorUI
+        second: {r: 0, g: 0, b: 0, a: 1}
+      data:
+        first:
+          name: _TintColor
+        second: {r: 0.5, g: 0.5, b: 0.5, a: 0.5}
+      data:
+        first:
+          name: _EmissionColorWithMapUI
+        second: {r: 1, g: 1, b: 1, a: 1}
+      data:
+        first:
+          name: _SpecularColor
+        second: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+      data:
+        first:
           name: _RefrColor
         second: {r: 0.34, g: 0.85, b: 0.92, a: 1}
       data:
@@ -216,17 +236,5 @@ Material:
         second: {r: 0.172, g: 0.463, b: 0.435, a: 1}
       data:
         first:
-          name: _SpecularColor
-        second: {r: 0.2, g: 0.2, b: 0.2, a: 1}
-      data:
-        first:
           name: _horizonColor
         second: {r: 0.172, g: 0.463, b: 0.435, a: 0}
-      data:
-        first:
-          name: _EmissionColorUI
-        second: {r: 0, g: 0, b: 0, a: 1}
-      data:
-        first:
-          name: _EmissionColorWithMapUI
-        second: {r: 1, g: 1, b: 1, a: 1}

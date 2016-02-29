@@ -89,11 +89,11 @@ Material:
       data:
         first:
           name: _Shininess
-        second: 349.13794
+        second: 359
       data:
         first:
           name: _FresnelScale
-        second: 0.3897143
+        second: 1.47
       data:
         first:
           name: _GerstnerIntensity
@@ -114,11 +114,11 @@ Material:
       data:
         first:
           name: _DistortParams
-        second: {r: 1.0285715, g: 0.20187221, b: 2.766625, a: -0.41714284}
+        second: {r: 1.0285715, g: 0.44, b: 2.68, a: -1.26}
       data:
         first:
           name: _InvFadeParemeter
-        second: {r: 0.27508128, g: 0.08562102, b: 0.09414239, a: 0.48031002}
+        second: {r: 2.4, g: 0.08562102, b: 0.09414239, a: 0}
       data:
         first:
           name: _AnimationTiling
@@ -150,7 +150,7 @@ Material:
       data:
         first:
           name: _WorldLightDir
-        second: {r: 0.013992369, g: -0.17359081, b: -0.9847186, a: 0}
+        second: {r: 0.013992339, g: -0.17359081, b: -0.9847185, a: 0}
       data:
         first:
           name: _Foam
@@ -158,7 +158,7 @@ Material:
       data:
         first:
           name: _GAmplitude
-        second: {r: 0.3, g: 0.2, b: 0.25, a: 0.25}
+        second: {r: -0.28, g: 0.2, b: 0.25, a: 0.25}
       data:
         first:
           name: _GFrequency
